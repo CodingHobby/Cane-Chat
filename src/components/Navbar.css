@@ -1,0 +1,35 @@
+.navbar {
+	width: 100%;
+	background-color: #222;
+	border: none;
+	height: 50px;
+	align-items: center;
+	padding-left: 10px;
+	display: flex;
+	color: white;
+}
+
+.nav-item {
+	color: #ccc;
+	padding: 2px;
+	border-radius: 5px;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.nav-item:hover {
+	color: white;
+}
+
+.nav-item a.active {
+	color: white;
+}
+
+.title {
+	font-size: 20px;
+	margin-right: 10%;
+	cursor: pointer;
+}
